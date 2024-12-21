@@ -1,0 +1,89 @@
+.navContainer{
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px;
+    background-color: #f3f3f3;
+    position: fixed;
+    top: 0;
+    width: 89vw;
+    z-index: 1;
+    
+}
+
+.profileImg{
+    display: flex;
+    gap: 15px;
+    align-items: center;  
+    text-decoration: none;  
+}
+.profileImg h1{
+    font-size: 23px;
+    text-decoration: none;
+    color:black ;
+    margin: 0;
+}
+.bar{
+    display: none;
+}
+.links{
+    display:flex;
+    gap: 20px;
+    
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.link:hover{
+    color: #926402;
+}
+
+@media all and (max-width:600px){
+    .navContainer{
+       padding: 0 28px;
+    }
+    .profileImg h1{
+        font-size: 20px;
+    }
+    .links{
+        display: none;
+    }
+    .bar{ 
+        display: block;
+        text-align: left;
+        
+    }
+    .barlink{
+        z-index: 1;
+        width: 100vw;
+        height: 100vh;
+        margin: 0 auto;
+        padding-top:100px ;
+        background-color: #E3E3E3;
+        text-align: center;
+        position: fixed;
+        top: 65px;
+        animation: zoom 1s ease-in-out 0s 1 normal forwards;
+    }
+    .barlink div{
+        margin-bottom: 20px;
+    }
+    .link{
+        font-size: 30px;
+    }
+    
+}
+
+@keyframes zoom  {
+	0% {
+		transform: scale(0.5);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+

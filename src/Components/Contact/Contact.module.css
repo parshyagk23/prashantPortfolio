@@ -1,0 +1,31 @@
+.footerContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer {
+    width: 97vw;
+    margin: 0 auto;
+    margin-top: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footerLine {
+    width: 90%;
+    margin: 0 auto;
+    height: 1px;
+    background-color: gray
+}
+
+@media all and (max-width:600px) {
+
+    .footerContainer {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 0 25px 25px;
+
+    }
+
+}
