@@ -62,10 +62,11 @@
 }
 
 
-@media all and (max-width:600px){
+@media all and (max-width:650px){
     .container{
         flex-direction: column;
         position: unset;
+        width: 85vw;
     }
     .profile {
         width: 90vw;

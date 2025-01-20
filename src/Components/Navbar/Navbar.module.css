@@ -7,7 +7,7 @@
     background-color: #f3f3f3;
     position: fixed;
     top: 0;
-    width: 89vw;
+    width: 100vw;
     z-index: 1;
     
 }
@@ -41,7 +41,7 @@
     color: #926402;
 }
 
-@media all and (max-width:600px){
+@media all and (max-width:650px){
     .navContainer{
        padding: 0 28px;
     }
@@ -54,6 +54,7 @@
     .bar{ 
         display: block;
         text-align: left;
+        margin-right: 40px;
         
     }
     .barlink{

@@ -6,6 +6,7 @@ import swipToryImg from '../../assets/images/swiptory.png'
 import notesImg from '../../assets/images/pocketNote.png'
 import calculatorimg from '../../assets/images/calc.png'
 import supperappimg from '../../assets/images/supperapp.png'
+import weatherimg from '../../assets/images/weather.png'
 import { GetProjectData } from '../../Api/Project';
 const ProjectSection = () => {
   const [projectData, setProjectData] = useState()
@@ -18,7 +19,7 @@ const ProjectSection = () => {
   useEffect(() => {
     getData()
   })
-  const ProjectImage = [quizAppImg, swipToryImg, notesImg, calculatorimg, supperappimg]
+  const ProjectImage = [quizAppImg, swipToryImg, notesImg, calculatorimg, supperappimg,weatherimg]
   return (
     <section className={styles.section}>
       <h3>PROJECTS</h3>

@@ -1,6 +1,6 @@
 .section {
-  margin-bottom: 2rem;
-  margin: 50px;
+  width: 90vw;
+  margin: 0 auto;
 }
 
 .header {

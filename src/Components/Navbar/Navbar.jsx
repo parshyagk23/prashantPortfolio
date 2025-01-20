@@ -3,6 +3,7 @@ import styles from "./Navbar.module.css";
 import profileImg from "../../assets/images/Profile/profile4.png";
 const Navbar = () => {
   const [openbar, setopenbar] = useState(false);
+  
   return (
     <div>
       <nav className={styles.navContainer}>
@@ -71,7 +72,7 @@ const Navbar = () => {
             </a>
           </div>
           <div   >
-            <a href={resume} className={styles.link} target="_blank" >
+            <a href='https://drive.google.com/file/d/1TPSGRen7KgGvdrMeRBiWrhae4Nj8vO7T/view?usp=drive_link' className={styles.link} target="_blank" >
               Resume
             </a>
           </div>
