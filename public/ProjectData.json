@@ -1,0 +1,81 @@
+{
+   "projectData":[ {
+        "title": "QuizApp",
+        "description": [
+            "•Developed a comprehensive quiz creation and sharing platform with secure authentication.",
+            "•Implemented features include quiz creation, editing, updating, deleting, sharing quizzes, real-time analytics, question timers, and trending quiz identification based on impressions.",
+            "•Design front-end with React, back-end with Node.js and MongoDB Database."
+        ],
+        
+        "technologies": [
+            "React",
+            "JavaScript",
+            "NodeJs",
+            "ExpressJs",
+            "MongoDB"
+        ],
+        "link": "https://quiz-frontend-dun.vercel.app/"
+    },
+    {
+        "title": "SWipTory",
+        "description": [
+            "•Developed for storytelling platform with secure authentication.",
+            "•Users can browse, read, like, bookmark, and share stories, with easy navigation through various categories.",
+            "•Design front-end with React, back-end with Node.js and MongoDB Database."
+        ],
+       
+        "technologies": [
+            "React",
+            "JavaScript",
+            "NodeJs",
+            "ExpressJs",
+            "MongoDB"
+        ],
+        "link": "https://swiptory-chi.vercel.app/"
+    },
+    {
+        "title": "Pocket Notes",
+        "description": [
+            "•Allows users to organize their notes efficiently.",
+            "•Users can create customized groups for their notes.",
+            "•Users can add notes to specific groups. Notes are saved in local storage.",
+            "•The application automatically fetches relevant notes when users switch between groups."
+        ],
+       
+        "technologies": [
+            "React"
+        ],
+        "link": "https://pocket-notes-rouge-three.vercel.app/"
+    },
+    {
+        "title": "Calculator App",
+        "description": [
+            "•Developed a simple calculator application using HTML, CSS, and JavaScript.",
+            "•Implemented a user-friendly interface with buttons for numerical input, operators, and clear and calculate buttons."
+        ],
+       
+        "technologies": [
+            "Html",
+            "CSS",
+            "Javascript"
+        ],
+        "link": "https://parshyagk23.github.io/Calculator/"
+    },
+    {
+        "title": "Super App",
+        "description": [
+            "• Provides a dynamic selection of entertainment categories for users to choose from.",
+            "• Displays a showcase page with features such as:",
+            "   A news section,A timer, User profile management, Personal notes,Current temperature details",
+            " •Includes an intuitive Browse feature for accessing detailed movie information based on the selected category."
+        ],
+       
+        "technologies": [
+            "Html",
+            "CSS",
+            "Javascript",
+            "React"
+        ],
+        "link": "https://supperapp-7a46b.web.app/"
+    }]
+    }
