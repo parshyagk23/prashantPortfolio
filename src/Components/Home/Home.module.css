@@ -41,11 +41,9 @@
     
 }
 .skills{
-    display: grid;
-    width: 45px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 10px;
-    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
 }
 .skills div{
     width: 55px;

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import ProjectCard from '../ProjectCard/ProjectCard';
 import styles from './ProjectSection.module.css';
 import quizAppImg from '../../assets/images/quiz.png'
+import taskImg from '../../assets/images/task.png'
 import swipToryImg from '../../assets/images/swiptory.png'
 import notesImg from '../../assets/images/pocketNote.png'
 import calculatorimg from '../../assets/images/calc.png'
@@ -19,7 +20,7 @@ const ProjectSection = () => {
   useEffect(() => {
     getData()
   })
-  const ProjectImage = [quizAppImg, swipToryImg, notesImg, calculatorimg, supperappimg,weatherimg]
+  const ProjectImage = [quizAppImg,taskImg, swipToryImg, notesImg, calculatorimg, supperappimg,weatherimg]
   return (
     <section className={styles.section}>
       <h3>PROJECTS</h3>
