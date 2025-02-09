@@ -14,7 +14,8 @@
                 "ExpressJs",
                 "MongoDB"
             ],
-            "link": "https://quiz-frontend-dun.vercel.app/"
+            "link": "https://quiz-frontend-dun.vercel.app/",
+            "image":"https://i.postimg.cc/tRPpKgwT/quiz.png"
         },
         {
             "title": "Task Mangager",
@@ -30,7 +31,8 @@
                 "ExpressJs",
                 "MongoDB"
             ],
-            "link": "https://task-manager-theta-coral.vercel.app/"
+            "link": "https://task-manager-theta-coral.vercel.app/",
+            "image":"https://i.postimg.cc/tgwGf0zW/task.png"
         },
         {
             "title": "SWipTory",
@@ -46,7 +48,8 @@
                 "ExpressJs",
                 "MongoDB"
             ],
-            "link": "https://swiptory-chi.vercel.app/"
+            "link": "https://swiptory-chi.vercel.app/",
+            "image":"https://i.postimg.cc/jSjVSqgy/swiptory.png"
         },
         {
             "title": "Pocket Notes",
@@ -59,7 +62,8 @@
             "technologies": [
                 "React"
             ],
-            "link": "https://pocket-notes-rouge-three.vercel.app/"
+            "link": "https://pocket-notes-rouge-three.vercel.app/",
+            "image":"https://i.postimg.cc/d38FrWrd/pocket-Note.png"
         },
         {
             "title": "Calculator App",
@@ -72,7 +76,8 @@
                 "CSS",
                 "Javascript"
             ],
-            "link": "https://parshyagk23.github.io/Calculator/"
+            "link": "https://parshyagk23.github.io/Calculator/",
+            "image":"https://i.postimg.cc/x8rYkrJn/calc.png"
         },
         {
             "title": "Super App",
@@ -88,7 +93,8 @@
                 "Javascript",
                 "React"
             ],
-            "link": "https://supperapp-7a46b.web.app/"
+            "link": "https://supperapp-7a46b.web.app/",
+            "image":"https://i.postimg.cc/FzQ5rj8K/supperapp.png"
         },
         {
             "title": "Weather Forcast Web Application",
@@ -103,7 +109,8 @@
                 "Javascript",
                 "React"
             ],
-            "link": "https://weatherforecast-app-three.vercel.app/"
+            "link": "https://weatherforecast-app-three.vercel.app/",
+            "image":"https://i.postimg.cc/tCkQbn5X/weather.png"
         }
     ]
 }

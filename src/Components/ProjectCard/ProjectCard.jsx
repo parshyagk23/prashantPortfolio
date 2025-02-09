@@ -1,15 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from './ProjectCard.module.css';
-
-const ProjectCard = ({ project, imageUrl }) => {
+const ProjectCard = ({ project }) => {
   return (
     <article className={styles.card}>
       <div className={styles.imageWrapper}>
         <img 
-          src={imageUrl} 
+          src={project?.image}
           alt={project?.title} 
           className={styles.image}
-          loading="lazy"
+          loading="eager"
         />
       </div>
       <div className={styles.content}>
